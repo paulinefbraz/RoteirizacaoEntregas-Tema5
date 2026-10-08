@@ -1,0 +1,1552 @@
+{
+ "nome": "i4_sem_solucao",
+ "semente": 42,
+ "origem": "C_0_0",
+ "destino": "C_9_9",
+ "cruzamentos": {
+  "C_0_0": [
+   2.8,
+   -9.5
+  ],
+  "C_0_1": [
+   95.5,
+   -5.5
+  ],
+  "C_0_2": [
+   204.7,
+   3.5
+  ],
+  "C_0_3": [
+   307.8,
+   -8.3
+  ],
+  "C_0_4": [
+   398.4,
+   -9.4
+  ],
+  "C_0_5": [
+   494.4,
+   0.1
+  ],
+  "C_0_6": [
+   590.5,
+   -6.0
+  ],
+  "C_0_7": [
+   703.0,
+   0.9
+  ],
+  "C_0_8": [
+   794.4,
+   1.8
+  ],
+  "C_0_9": [
+   906.2,
+   -9.9
+  ],
+  "C_1_0": [
+   6.1,
+   104.0
+  ],
+  "C_1_1": [
+   96.8,
+   93.1
+  ],
+  "C_1_2": [
+   209.1,
+   96.7
+  ],
+  "C_1_3": [
+   291.9,
+   91.9
+  ],
+  "C_1_4": [
+   406.9,
+   102.1
+  ],
+  "C_1_5": [
+   506.1,
+   104.6
+  ],
+  "C_1_6": [
+   600.7,
+   109.5
+  ],
+  "C_1_7": [
+   697.6,
+   101.0
+  ],
+  "C_1_8": [
+   806.6,
+   102.4
+  ],
+  "C_1_9": [
+   907.2,
+   101.5
+  ],
+  "C_2_0": [
+   4.1,
+   190.9
+  ],
+  "C_2_1": [
+   94.6,
+   195.8
+  ],
+  "C_2_2": [
+   191.6,
+   194.7
+  ],
+  "C_2_3": [
+   292.0,
+   195.6
+  ],
+  "C_2_4": [
+   402.7,
+   197.3
+  ],
+  "C_2_5": [
+   497.4,
+   194.2
+  ],
+  "C_2_6": [
+   595.3,
+   208.7
+  ],
+  "C_2_7": [
+   703.0,
+   202.2
+  ],
+  "C_2_8": [
+   793.4,
+   204.6
+  ],
+  "C_2_9": [
+   893.3,
+   197.6
+  ],
+  "C_3_0": [
+   9.8,
+   302.8
+  ],
+  "C_3_1": [
+   101.1,
+   303.7
+  ],
+  "C_3_2": [
+   206.9,
+   305.5
+  ],
+  "C_3_3": [
+   294.6,
+   290.6
+  ],
+  "C_3_4": [
+   396.3,
+   295.4
+  ],
+  "C_3_5": [
+   494.2,
+   308.9
+  ],
+  "C_3_6": [
+   607.5,
+   296.3
+  ],
+  "C_3_7": [
+   703.1,
+   297.9
+  ],
+  "C_3_8": [
+   808.3,
+   299.2
+  ],
+  "C_3_9": [
+   895.3,
+   294.9
+  ],
+  "C_4_0": [
+   1.2,
+   395.3
+  ],
+  "C_4_1": [
+   101.7,
+   408.0
+  ],
+  "C_4_2": [
+   198.0,
+   394.4
+  ],
+  "C_4_3": [
+   310.0,
+   400.2
+  ],
+  "C_4_4": [
+   391.8,
+   390.9
+  ],
+  "C_4_5": [
+   492.2,
+   402.5
+  ],
+  "C_4_6": [
+   605.8,
+   398.4
+  ],
+  "C_4_7": [
+   691.3,
+   397.6
+  ],
+  "C_4_8": [
+   809.9,
+   400.6
+  ],
+  "C_4_9": [
+   909.4,
+   407.2
+  ],
+  "C_5_0": [
+   -9.8,
+   504.4
+  ],
+  "C_5_1": [
+   103.6,
+   500.7
+  ],
+  "C_5_2": [
+   195.3,
+   502.8
+  ],
+  "C_5_3": [
+   292.2,
+   498.7
+  ],
+  "C_5_4": [
+   399.1,
+   509.1
+  ],
+  "C_5_5": [
+   507.5,
+   495.3
+  ],
+  "C_5_6": [
+   600.0,
+   493.6
+  ],
+  "C_5_7": [
+   708.3,
+   507.4
+  ],
+  "C_5_8": [
+   796.0,
+   502.8
+  ],
+  "C_5_9": [
+   902.2,
+   493.1
+  ],
+  "C_6_0": [
+   5.3,
+   600.8
+  ],
+  "C_6_1": [
+   105.6,
+   600.6
+  ],
+  "C_6_2": [
+   190.0,
+   596.5
+  ],
+  "C_6_3": [
+   290.4,
+   608.6
+  ],
+  "C_6_4": [
+   407.6,
+   606.6
+  ],
+  "C_6_5": [
+   496.2,
+   591.2
+  ],
+  "C_6_6": [
+   607.6,
+   608.9
+  ],
+  "C_6_7": [
+   691.7,
+   599.7
+  ],
+  "C_6_8": [
+   791.4,
+   605.2
+  ],
+  "C_6_9": [
+   905.3,
+   592.6
+  ],
+  "C_7_0": [
+   -0.5,
+   701.0
+  ],
+  "C_7_1": [
+   95.3,
+   707.4
+  ],
+  "C_7_2": [
+   198.5,
+   694.2
+  ],
+  "C_7_3": [
+   300.8,
+   704.6
+  ],
+  "C_7_4": [
+   394.0,
+   696.2
+  ],
+  "C_7_5": [
+   509.9,
+   703.0
+  ],
+  "C_7_6": [
+   598.8,
+   700.4
+  ],
+  "C_7_7": [
+   692.4,
+   694.5
+  ],
+  "C_7_8": [
+   796.8,
+   701.8
+  ],
+  "C_7_9": [
+   894.6,
+   694.4
+  ],
+  "C_8_0": [
+   -8.6,
+   802.6
+  ],
+  "C_8_1": [
+   94.6,
+   808.1
+  ],
+  "C_8_2": [
+   207.2,
+   791.4
+  ],
+  "C_8_3": [
+   294.8,
+   803.4
+  ],
+  "C_8_4": [
+   394.3,
+   792.6
+  ],
+  "C_8_5": [
+   508.7,
+   801.4
+  ],
+  "C_8_6": [
+   599.5,
+   805.7
+  ],
+  "C_8_7": [
+   706.1,
+   793.8
+  ],
+  "C_8_8": [
+   791.9,
+   798.6
+  ],
+  "C_8_9": [
+   898.5,
+   799.3
+  ],
+  "C_9_0": [
+   4.6,
+   903.5
+  ],
+  "C_9_1": [
+   109.7,
+   892.0
+  ],
+  "C_9_2": [
+   198.1,
+   896.8
+  ],
+  "C_9_3": [
+   307.2,
+   895.0
+  ],
+  "C_9_4": [
+   393.8,
+   899.0
+  ],
+  "C_9_5": [
+   498.4,
+   895.6
+  ],
+  "C_9_6": [
+   595.0,
+   908.5
+  ],
+  "C_9_7": [
+   698.9,
+   907.2
+  ],
+  "C_9_8": [
+   801.0,
+   891.0
+  ],
+  "C_9_9": [
+   910.0,
+   906.7
+  ]
+ },
+ "ruas": [
+  {
+   "de": "C_0_0",
+   "para": "C_0_1",
+   "distancia": 119.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_1_0",
+   "para": "C_0_0",
+   "distancia": 130.1,
+   "mao_unica": true
+  },
+  {
+   "de": "C_0_1",
+   "para": "C_0_2",
+   "distancia": 122.1,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_1",
+   "para": "C_1_1",
+   "distancia": 112.1,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_2",
+   "para": "C_0_3",
+   "distancia": 121.1,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_2",
+   "para": "C_1_2",
+   "distancia": 120.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_3",
+   "para": "C_0_4",
+   "distancia": 92.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_3",
+   "para": "C_1_3",
+   "distancia": 106.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_4",
+   "para": "C_0_5",
+   "distancia": 113.7,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_4",
+   "para": "C_1_4",
+   "distancia": 141.7,
+   "mao_unica": true
+  },
+  {
+   "de": "C_0_5",
+   "para": "C_0_6",
+   "distancia": 108.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_5",
+   "para": "C_1_5",
+   "distancia": 111.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_7",
+   "para": "C_0_6",
+   "distancia": 135.5,
+   "mao_unica": true
+  },
+  {
+   "de": "C_0_6",
+   "para": "C_1_6",
+   "distancia": 118.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_8",
+   "para": "C_0_7",
+   "distancia": 93.5,
+   "mao_unica": true
+  },
+  {
+   "de": "C_0_7",
+   "para": "C_1_7",
+   "distancia": 126.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_8",
+   "para": "C_0_9",
+   "distancia": 140.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_0_8",
+   "para": "C_1_8",
+   "distancia": 121.3,
+   "mao_unica": true
+  },
+  {
+   "de": "C_0_9",
+   "para": "C_1_9",
+   "distancia": 133.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_1_0",
+   "para": "C_1_1",
+   "distancia": 94.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_1_0",
+   "para": "C_2_0",
+   "distancia": 105.7,
+   "mao_unica": true
+  },
+  {
+   "de": "C_1_1",
+   "para": "C_1_2",
+   "distancia": 128.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_1",
+   "para": "C_1_1",
+   "distancia": 115.8,
+   "mao_unica": true
+  },
+  {
+   "de": "C_1_2",
+   "para": "C_1_3",
+   "distancia": 98.8,
+   "mao_unica": true
+  },
+  {
+   "de": "C_2_2",
+   "para": "C_1_2",
+   "distancia": 112.4,
+   "mao_unica": true
+  },
+  {
+   "de": "C_1_3",
+   "para": "C_1_4",
+   "distancia": 146.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_3",
+   "para": "C_1_3",
+   "distancia": 108.4,
+   "mao_unica": true
+  },
+  {
+   "de": "C_1_4",
+   "para": "C_1_5",
+   "distancia": 123.0,
+   "mao_unica": false
+  },
+  {
+   "de": "C_1_4",
+   "para": "C_2_4",
+   "distancia": 102.5,
+   "mao_unica": true
+  },
+  {
+   "de": "C_1_5",
+   "para": "C_1_6",
+   "distancia": 106.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_1_5",
+   "para": "C_2_5",
+   "distancia": 113.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_1_6",
+   "para": "C_1_7",
+   "distancia": 98.0,
+   "mao_unica": false
+  },
+  {
+   "de": "C_1_6",
+   "para": "C_2_6",
+   "distancia": 123.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_1_7",
+   "para": "C_1_8",
+   "distancia": 134.8,
+   "mao_unica": true
+  },
+  {
+   "de": "C_1_7",
+   "para": "C_2_7",
+   "distancia": 108.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_1_9",
+   "para": "C_1_8",
+   "distancia": 124.7,
+   "mao_unica": true
+  },
+  {
+   "de": "C_1_8",
+   "para": "C_2_8",
+   "distancia": 113.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_1_9",
+   "para": "C_2_9",
+   "distancia": 115.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_0",
+   "para": "C_2_1",
+   "distancia": 116.2,
+   "mao_unica": true
+  },
+  {
+   "de": "C_3_0",
+   "para": "C_2_0",
+   "distancia": 144.4,
+   "mao_unica": true
+  },
+  {
+   "de": "C_2_1",
+   "para": "C_2_2",
+   "distancia": 118.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_1",
+   "para": "C_3_1",
+   "distancia": 120.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_2",
+   "para": "C_2_3",
+   "distancia": 100.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_2",
+   "para": "C_3_2",
+   "distancia": 136.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_3",
+   "para": "C_2_4",
+   "distancia": 132.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_3",
+   "para": "C_3_3",
+   "distancia": 115.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_5",
+   "para": "C_2_4",
+   "distancia": 106.2,
+   "mao_unica": true
+  },
+  {
+   "de": "C_2_4",
+   "para": "C_3_4",
+   "distancia": 126.1,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_5",
+   "para": "C_2_6",
+   "distancia": 108.0,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_5",
+   "para": "C_3_5",
+   "distancia": 129.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_7",
+   "para": "C_2_6",
+   "distancia": 122.3,
+   "mao_unica": true
+  },
+  {
+   "de": "C_3_6",
+   "para": "C_2_6",
+   "distancia": 109.6,
+   "mao_unica": true
+  },
+  {
+   "de": "C_2_7",
+   "para": "C_2_8",
+   "distancia": 107.7,
+   "mao_unica": false
+  },
+  {
+   "de": "C_3_7",
+   "para": "C_2_7",
+   "distancia": 115.1,
+   "mao_unica": true
+  },
+  {
+   "de": "C_2_8",
+   "para": "C_2_9",
+   "distancia": 107.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_8",
+   "para": "C_3_8",
+   "distancia": 107.7,
+   "mao_unica": false
+  },
+  {
+   "de": "C_2_9",
+   "para": "C_3_9",
+   "distancia": 111.8,
+   "mao_unica": true
+  },
+  {
+   "de": "C_3_0",
+   "para": "C_3_1",
+   "distancia": 111.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_3_0",
+   "para": "C_4_0",
+   "distancia": 97.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_3_1",
+   "para": "C_3_2",
+   "distancia": 113.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_3_1",
+   "para": "C_4_1",
+   "distancia": 125.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_3_2",
+   "para": "C_3_3",
+   "distancia": 112.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_3_2",
+   "para": "C_4_2",
+   "distancia": 111.7,
+   "mao_unica": false
+  },
+  {
+   "de": "C_3_4",
+   "para": "C_3_3",
+   "distancia": 116.4,
+   "mao_unica": true
+  },
+  {
+   "de": "C_3_3",
+   "para": "C_4_3",
+   "distancia": 136.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_3_5",
+   "para": "C_3_4",
+   "distancia": 101.2,
+   "mao_unica": true
+  },
+  {
+   "de": "C_4_4",
+   "para": "C_3_4",
+   "distancia": 111.1,
+   "mao_unica": true
+  },
+  {
+   "de": "C_3_6",
+   "para": "C_3_5",
+   "distancia": 138.2,
+   "mao_unica": true
+  },
+  {
+   "de": "C_4_5",
+   "para": "C_3_5",
+   "distancia": 105.3,
+   "mao_unica": true
+  },
+  {
+   "de": "C_3_6",
+   "para": "C_3_7",
+   "distancia": 112.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_6",
+   "para": "C_3_6",
+   "distancia": 113.8,
+   "mao_unica": true
+  },
+  {
+   "de": "C_3_7",
+   "para": "C_3_8",
+   "distancia": 132.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_3_7",
+   "para": "C_4_7",
+   "distancia": 116.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_3_9",
+   "para": "C_3_8",
+   "distancia": 98.5,
+   "mao_unica": true
+  },
+  {
+   "de": "C_4_8",
+   "para": "C_3_8",
+   "distancia": 113.8,
+   "mao_unica": true
+  },
+  {
+   "de": "C_4_9",
+   "para": "C_3_9",
+   "distancia": 134.4,
+   "mao_unica": true
+  },
+  {
+   "de": "C_4_0",
+   "para": "C_4_1",
+   "distancia": 102.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_0",
+   "para": "C_5_0",
+   "distancia": 111.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_1",
+   "para": "C_4_2",
+   "distancia": 119.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_1",
+   "para": "C_4_1",
+   "distancia": 99.8,
+   "mao_unica": true
+  },
+  {
+   "de": "C_4_2",
+   "para": "C_4_3",
+   "distancia": 145.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_2",
+   "para": "C_5_2",
+   "distancia": 129.7,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_4",
+   "para": "C_4_3",
+   "distancia": 82.9,
+   "mao_unica": true
+  },
+  {
+   "de": "C_4_3",
+   "para": "C_5_3",
+   "distancia": 117.1,
+   "mao_unica": true
+  },
+  {
+   "de": "C_4_4",
+   "para": "C_4_5",
+   "distancia": 106.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_4",
+   "para": "C_5_4",
+   "distancia": 147.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_5",
+   "para": "C_4_6",
+   "distancia": 124.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_5",
+   "para": "C_5_5",
+   "distancia": 114.3,
+   "mao_unica": true
+  },
+  {
+   "de": "C_4_6",
+   "para": "C_4_7",
+   "distancia": 88.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_6",
+   "para": "C_5_6",
+   "distancia": 98.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_7",
+   "para": "C_4_8",
+   "distancia": 133.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_7",
+   "para": "C_5_7",
+   "distancia": 139.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_8",
+   "para": "C_4_9",
+   "distancia": 118.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_8",
+   "para": "C_5_8",
+   "distancia": 125.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_4_9",
+   "para": "C_5_9",
+   "distancia": 100.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_0",
+   "para": "C_5_1",
+   "distancia": 122.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_0",
+   "para": "C_5_0",
+   "distancia": 123.4,
+   "mao_unica": true
+  },
+  {
+   "de": "C_5_1",
+   "para": "C_5_2",
+   "distancia": 102.2,
+   "mao_unica": true
+  },
+  {
+   "de": "C_5_1",
+   "para": "C_6_1",
+   "distancia": 106.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_3",
+   "para": "C_5_2",
+   "distancia": 117.4,
+   "mao_unica": true
+  },
+  {
+   "de": "C_5_2",
+   "para": "C_6_2",
+   "distancia": 96.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_3",
+   "para": "C_5_4",
+   "distancia": 129.7,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_3",
+   "para": "C_6_3",
+   "distancia": 113.0,
+   "mao_unica": true
+  },
+  {
+   "de": "C_5_4",
+   "para": "C_5_5",
+   "distancia": 128.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_4",
+   "para": "C_6_4",
+   "distancia": 119.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_6",
+   "para": "C_5_5",
+   "distancia": 99.5,
+   "mao_unica": true
+  },
+  {
+   "de": "C_5_5",
+   "para": "C_6_5",
+   "distancia": 112.1,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_6",
+   "para": "C_5_7",
+   "distancia": 125.1,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_6",
+   "para": "C_5_6",
+   "distancia": 125.4,
+   "mao_unica": true
+  },
+  {
+   "de": "C_5_7",
+   "para": "C_5_8",
+   "distancia": 92.6,
+   "mao_unica": true
+  },
+  {
+   "de": "C_5_7",
+   "para": "C_6_7",
+   "distancia": 121.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_8",
+   "para": "C_5_9",
+   "distancia": 134.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_8",
+   "para": "C_6_8",
+   "distancia": 117.0,
+   "mao_unica": false
+  },
+  {
+   "de": "C_5_9",
+   "para": "C_6_9",
+   "distancia": 127.7,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_0",
+   "para": "C_6_1",
+   "distancia": 102.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_0",
+   "para": "C_7_0",
+   "distancia": 117.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_1",
+   "para": "C_6_2",
+   "distancia": 103.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_1",
+   "para": "C_7_1",
+   "distancia": 124.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_2",
+   "para": "C_6_3",
+   "distancia": 131.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_2",
+   "para": "C_7_2",
+   "distancia": 119.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_4",
+   "para": "C_6_3",
+   "distancia": 140.5,
+   "mao_unica": true
+  },
+  {
+   "de": "C_6_3",
+   "para": "C_7_3",
+   "distancia": 96.7,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_4",
+   "para": "C_6_5",
+   "distancia": 96.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_4",
+   "para": "C_7_4",
+   "distancia": 109.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_5",
+   "para": "C_6_6",
+   "distancia": 135.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_5",
+   "para": "C_7_5",
+   "distancia": 134.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_6",
+   "para": "C_6_7",
+   "distancia": 88.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_6",
+   "para": "C_7_6",
+   "distancia": 99.9,
+   "mao_unica": true
+  },
+  {
+   "de": "C_6_7",
+   "para": "C_6_8",
+   "distancia": 128.1,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_7",
+   "para": "C_7_7",
+   "distancia": 96.0,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_8",
+   "para": "C_6_9",
+   "distancia": 117.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_8",
+   "para": "C_7_8",
+   "distancia": 124.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_6_9",
+   "para": "C_7_9",
+   "distancia": 103.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_0",
+   "para": "C_7_1",
+   "distancia": 122.5,
+   "mao_unica": true
+  },
+  {
+   "de": "C_8_0",
+   "para": "C_7_0",
+   "distancia": 117.0,
+   "mao_unica": true
+  },
+  {
+   "de": "C_7_1",
+   "para": "C_7_2",
+   "distancia": 125.0,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_1",
+   "para": "C_8_1",
+   "distancia": 109.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_2",
+   "para": "C_7_3",
+   "distancia": 116.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_2",
+   "para": "C_8_2",
+   "distancia": 109.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_3",
+   "para": "C_7_4",
+   "distancia": 108.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_3",
+   "para": "C_8_3",
+   "distancia": 121.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_4",
+   "para": "C_7_5",
+   "distancia": 135.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_4",
+   "para": "C_8_4",
+   "distancia": 100.0,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_5",
+   "para": "C_7_6",
+   "distancia": 93.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_5",
+   "para": "C_8_5",
+   "distancia": 127.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_6",
+   "para": "C_7_7",
+   "distancia": 117.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_6",
+   "para": "C_8_6",
+   "distancia": 114.0,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_7",
+   "para": "C_7_8",
+   "distancia": 122.0,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_7",
+   "para": "C_8_7",
+   "distancia": 126.7,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_8",
+   "para": "C_7_9",
+   "distancia": 110.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_7_8",
+   "para": "C_8_8",
+   "distancia": 105.2,
+   "mao_unica": true
+  },
+  {
+   "de": "C_7_9",
+   "para": "C_8_9",
+   "distancia": 120.4,
+   "mao_unica": true
+  },
+  {
+   "de": "C_8_0",
+   "para": "C_8_1",
+   "distancia": 120.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_0",
+   "para": "C_9_0",
+   "distancia": 107.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_1",
+   "para": "C_8_2",
+   "distancia": 140.4,
+   "mao_unica": true
+  },
+  {
+   "de": "C_8_1",
+   "para": "C_9_1",
+   "distancia": 106.0,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_2",
+   "para": "C_8_3",
+   "distancia": 114.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_2",
+   "para": "C_9_2",
+   "distancia": 124.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_3",
+   "para": "C_8_4",
+   "distancia": 115.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_9_3",
+   "para": "C_8_3",
+   "distancia": 110.6,
+   "mao_unica": true
+  },
+  {
+   "de": "C_8_4",
+   "para": "C_8_5",
+   "distancia": 126.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_4",
+   "para": "C_9_4",
+   "distancia": 133.7,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_5",
+   "para": "C_8_6",
+   "distancia": 110.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_5",
+   "para": "C_9_5",
+   "distancia": 96.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_6",
+   "para": "C_8_7",
+   "distancia": 131.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_6",
+   "para": "C_9_6",
+   "distancia": 129.9,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_7",
+   "para": "C_8_8",
+   "distancia": 87.2,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_7",
+   "para": "C_9_7",
+   "distancia": 118.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_8_8",
+   "para": "C_8_9",
+   "distancia": 112.1,
+   "mao_unica": true
+  },
+  {
+   "de": "C_8_8",
+   "para": "C_9_8",
+   "distancia": 99.6,
+   "mao_unica": false
+  },
+  {
+   "de": "C_9_9",
+   "para": "C_8_9",
+   "distancia": 116.3,
+   "mao_unica": true
+  },
+  {
+   "de": "C_9_0",
+   "para": "C_9_1",
+   "distancia": 134.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_9_1",
+   "para": "C_9_2",
+   "distancia": 97.8,
+   "mao_unica": false
+  },
+  {
+   "de": "C_9_2",
+   "para": "C_9_3",
+   "distancia": 117.4,
+   "mao_unica": false
+  },
+  {
+   "de": "C_9_3",
+   "para": "C_9_4",
+   "distancia": 99.3,
+   "mao_unica": true
+  },
+  {
+   "de": "C_9_4",
+   "para": "C_9_5",
+   "distancia": 135.9,
+   "mao_unica": true
+  },
+  {
+   "de": "C_9_5",
+   "para": "C_9_6",
+   "distancia": 105.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_9_6",
+   "para": "C_9_7",
+   "distancia": 105.5,
+   "mao_unica": false
+  },
+  {
+   "de": "C_9_7",
+   "para": "C_9_8",
+   "distancia": 112.3,
+   "mao_unica": false
+  },
+  {
+   "de": "C_9_9",
+   "para": "C_9_8",
+   "distancia": 131.2,
+   "mao_unica": true
+  }
+ ],
+ "bloqueadas": [
+  [
+   "C_1_0",
+   "C_0_0"
+  ],
+  [
+   "C_1_1",
+   "C_1_2"
+  ],
+  [
+   "C_2_2",
+   "C_3_2"
+  ],
+  [
+   "C_3_7",
+   "C_2_7"
+  ],
+  [
+   "C_2_8",
+   "C_2_9"
+  ],
+  [
+   "C_2_9",
+   "C_3_9"
+  ],
+  [
+   "C_3_0",
+   "C_4_0"
+  ],
+  [
+   "C_4_4",
+   "C_5_4"
+  ],
+  [
+   "C_5_0",
+   "C_5_1"
+  ],
+  [
+   "C_5_8",
+   "C_6_8"
+  ],
+  [
+   "C_6_4",
+   "C_6_3"
+  ],
+  [
+   "C_6_5",
+   "C_7_5"
+  ],
+  [
+   "C_6_7",
+   "C_6_8"
+  ],
+  [
+   "C_7_5",
+   "C_7_6"
+  ],
+  [
+   "C_8_5",
+   "C_8_6"
+  ]
+ ]
+}

@@ -1,0 +1,26 @@
+| instancia | estrategia | status | custo | passos | gerados | expandidos | max_fronteira | tempo_ms | otimo |
+|---|---|---|---|---|---|---|---|---|---|
+| i1_pequena | Largura | sucesso | 8.0 | 2 | 5 | 2 | 3 | 0.005 | não |
+| i1_pequena | Custo uniforme | sucesso | 5.0 | 3 | 8 | 6 | 3 | 0.009 | sim |
+| i1_pequena | A* (h) | sucesso | 5.0 | 3 | 8 | 5 | 3 | 0.011 | sim |
+| i1_pequena | A* (h×2) | sucesso | 5.0 | 3 | 7 | 4 | 3 | 0.01 | sim |
+| i1_pequena | A* (h×3) | sucesso | 8.0 | 2 | 5 | 2 | 3 | 0.007 | não |
+| i1_pequena | Gulosa (h) | sucesso | 8.0 | 2 | 5 | 2 | 3 | 0.006 | não |
+| i2_media | Largura | sucesso | 1111.7 | 10 | 36 | 34 | 8 | 0.028 | sim |
+| i2_media | Custo uniforme | sucesso | 1111.7 | 10 | 40 | 35 | 8 | 0.041 | sim |
+| i2_media | A* (h) | sucesso | 1111.7 | 10 | 35 | 28 | 11 | 0.042 | sim |
+| i2_media | A* (h×2) | sucesso | 1121.4 | 10 | 20 | 11 | 9 | 0.023 | não |
+| i2_media | A* (h×3) | sucesso | 1121.4 | 10 | 20 | 11 | 9 | 0.023 | não |
+| i2_media | Gulosa (h) | sucesso | 1121.4 | 10 | 20 | 10 | 10 | 0.021 | não |
+| i3_grande | Largura | sucesso | 4329.2 | 38 | 398 | 397 | 24 | 0.313 | não |
+| i3_grande | Custo uniforme | sucesso | 4093.7 | 38 | 434 | 397 | 28 | 0.501 | sim |
+| i3_grande | A* (h) | sucesso | 4093.7 | 38 | 374 | 304 | 37 | 0.486 | sim |
+| i3_grande | A* (h×2) | sucesso | 4228.3 | 38 | 84 | 40 | 44 | 0.09 | não |
+| i3_grande | A* (h×3) | sucesso | 4259.3 | 38 | 85 | 39 | 46 | 0.089 | não |
+| i3_grande | Gulosa (h) | sucesso | 4409.5 | 38 | 79 | 38 | 41 | 0.078 | não |
+| i4_sem_solucao | Largura | sem_solucao |  |  | 95 | 95 | 11 | 0.068 | — |
+| i4_sem_solucao | Custo uniforme | sem_solucao |  |  | 105 | 95 | 12 | 0.107 | — |
+| i4_sem_solucao | A* (h) | sem_solucao |  |  | 114 | 95 | 20 | 0.136 | — |
+| i4_sem_solucao | A* (h×2) | sem_solucao |  |  | 237 | 195 | 38 | 0.311 | — |
+| i4_sem_solucao | A* (h×3) | sem_solucao |  |  | 371 | 322 | 39 | 0.495 | — |
+| i4_sem_solucao | Gulosa (h) | sem_solucao |  |  | 542 | 502 | 26 | 0.704 | — |

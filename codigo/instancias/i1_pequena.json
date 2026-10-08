@@ -1,0 +1,26 @@
+{
+  "nome": "i1_pequena",
+  "origem": "S",
+  "destino": "G",
+  "cruzamentos": {
+    "S": [0, 0],
+    "M": [2, 0],
+    "A": [1, 1],
+    "B": [3, 1],
+    "C": [1, -1],
+    "D": [3, -1],
+    "G": [4, 0]
+  },
+  "ruas": [
+    { "de": "S", "para": "M", "distancia": 2.0, "mao_unica": false },
+    { "de": "M", "para": "G", "distancia": 6.0, "mao_unica": true },
+    { "de": "S", "para": "A", "distancia": 1.5, "mao_unica": false },
+    { "de": "A", "para": "B", "distancia": 2.0, "mao_unica": false },
+    { "de": "B", "para": "G", "distancia": 1.5, "mao_unica": false },
+    { "de": "S", "para": "C", "distancia": 1.5, "mao_unica": false },
+    { "de": "C", "para": "D", "distancia": 2.2, "mao_unica": false },
+    { "de": "G", "para": "D", "distancia": 1.5, "mao_unica": true },
+    { "de": "A", "para": "G", "distancia": 3.2, "mao_unica": false }
+  ],
+  "bloqueadas": [["A", "G"]]
+}

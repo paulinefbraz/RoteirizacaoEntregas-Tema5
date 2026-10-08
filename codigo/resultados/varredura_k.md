@@ -1,0 +1,17 @@
+| instancia | k | status | custo | custo_sobre_otimo | gerados | expandidos |
+|---|---|---|---|---|---|---|
+| i1_pequena | 1.0 | sucesso | 5.0 | 1.0 | 8 | 5 |
+| i1_pequena | 1.5 | sucesso | 5.0 | 1.0 | 7 | 4 |
+| i1_pequena | 2.0 | sucesso | 5.0 | 1.0 | 7 | 4 |
+| i1_pequena | 3.0 | sucesso | 8.0 | 1.6 | 5 | 2 |
+| i1_pequena | 5.0 | sucesso | 8.0 | 1.6 | 5 | 2 |
+| i2_media | 1.0 | sucesso | 1111.7 | 1.0 | 35 | 28 |
+| i2_media | 1.5 | sucesso | 1121.4 | 1.0087 | 27 | 16 |
+| i2_media | 2.0 | sucesso | 1121.4 | 1.0087 | 20 | 11 |
+| i2_media | 3.0 | sucesso | 1121.4 | 1.0087 | 20 | 11 |
+| i2_media | 5.0 | sucesso | 1121.4 | 1.0087 | 20 | 10 |
+| i3_grande | 1.0 | sucesso | 4093.7 | 1.0 | 374 | 304 |
+| i3_grande | 1.5 | sucesso | 4093.7 | 1.0 | 305 | 185 |
+| i3_grande | 2.0 | sucesso | 4228.3 | 1.0329 | 84 | 40 |
+| i3_grande | 3.0 | sucesso | 4259.3 | 1.0405 | 85 | 39 |
+| i3_grande | 5.0 | sucesso | 4337.8 | 1.0596 | 83 | 39 |
