@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roteirização de entregas urbanas — apresentação 3D</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div id="palco"><canvas id="c"></canvas></div>
+<div id="rotulos"></div>
+
+<main id="slides">
+
+<!-- 1 · Título -->
+<section class="slide capa" data-titulo="Título">
+  <div class="capa-bloco">
+    <div class="kicker rev">N1 Agentes e Busca · Tema 5</div>
+    <h1 class="rev">Roteirização de entregas urbanas por busca em grafo</h1>
+    <p class="sub rev">Largura, custo uniforme e A* com heurística admissível e superestimada</p>
+    <ul class="autores rev">
+      <li>Miguel Da Silveira Palhares Leite</li>
+      <li>Pauline Fernandes Braz</li>
+      <li>Nathan David Oliveira da Rocha</li>
+    </ul>
+    <p class="prof rev">Professor: Aldo Henrique Mendes</p>
+    <p class="dica rev">pressione <kbd>→</kbd> para começar</p>
+  </div>
+</section>
+
+<!-- 2 · Problema -->
+<section class="slide" data-titulo="O problema" data-passos="2">
+  <div class="painel esq">
+    <div class="kicker rev">1 · Modelagem</div>
+    <h2 class="rev">O problema</h2>
+    <p class="rev">O veículo parte do depósito <b>S</b> e precisa chegar a <b>G</b> pela <b>menor distância</b>.</p>
+    <ul class="rev">
+      <li><b>Cruzamentos</b> são nós; <b>ruas</b> são arcos com distância.</li>
+      <li><b>Mão única</b> vira um único arco; <b>mão dupla</b>, dois.</li>
+      <li><b>Bloqueada</b> existe no mapa, mas não pode ser usada.</li>
+    </ul>
+    <div class="legenda rev">
+      <span><i class="tr unica"></i>mão única</span>
+      <span><i class="tr dupla"></i>mão dupla</span>
+      <span><i class="tr bloq"></i>bloqueada</span>
+    </div>
+    <div class="destaque rev">Estado = cruzamento · Custo = distância · h = linha reta ao destino</div>
+    <div class="explica" id="txt2"></div>
+  </div>
+</section>
+
+<!-- 3 · PEAS -->
+<section class="slide" data-titulo="PEAS e ambiente">
+  <div class="painel esq larga">
+    <div class="kicker rev">1 · Modelagem</div>
+    <h2 class="rev">PEAS e ambiente</h2>
+    <div class="peas">
+      <div class="card rev"><b>P</b><span>Performance</span><p>menor distância total; nunca usar rua bloqueada nem andar contra o sentido; tempo de cálculo</p></div>
+      <div class="card rev"><b>E</b><span>Environment</span><p>malha viária: cruzamentos, ruas com distância, sentido e bloqueio</p></div>
+      <div class="card rev"><b>A</b><span>Atuadores</span><p>escolher a próxima rua; emitir a rota final</p></div>
+      <div class="card rev"><b>S</b><span>Sensores</span><p>mapa completo, cruzamento atual, destino, lista de bloqueios</p></div>
+    </div>
+    <h3 class="rev">7 propriedades do ambiente</h3>
+    <div class="chips rev">
+      <span>totalmente observável</span><span>agente único</span><span>determinístico</span><span>sequencial</span><span>estático</span><span>discreto</span><span>conhecido</span>
+    </div>
+    <p class="pequeno rev">Premissa de modelagem: no trânsito real seria dinâmico e parcialmente observável.</p>
+  </div>
+</section>
+
+<!-- 4 · Formulação -->
+<section class="slide" data-titulo="Formulação" data-passos="5">
+  <div class="painel esq">
+    <div class="kicker rev">1 · Modelagem</div>
+    <h2 class="rev">Formulação em 5 componentes</h2>
+    <ol class="comp rev" id="comp4">
+      <li><b>Estados</b> um cruzamento, <code>str</code> (<code>"A"</code>, <code>"C_3_4"</code>)</li>
+      <li><b>Inicial</b> <code>origem</code> da instância</li>
+      <li><b>Sucessora</b> arcos que saem do estado e não estão bloqueados</li>
+      <li><b>Objetivo</b> <code>estado == destino</code></li>
+      <li><b>Custo</b> soma das distâncias das ruas</li>
+    </ol>
+    <pre class="cod rev" id="adj4"></pre>
+    <div class="explica" id="txt4"></div>
+  </div>
+</section>
+
+<!-- 5 · Largura -->
+<section class="slide" data-titulo="Busca em largura" data-passos="auto">
+  <div class="painel esq">
+    <div class="kicker rev">2 · Técnicas</div>
+    <h2 class="rev">Busca em largura <small>fronteira = <code>deque</code></small></h2>
+    <div class="rotulo-fila rev">fronteira (FIFO) — sai pela esquerda</div>
+    <div class="fila rev" id="fila5"></div>
+    <div class="conj rev" id="conj5"></div>
+    <div class="explica" id="txt5"></div>
+    <div class="legenda-nos rev"><span class="n ocioso"></span>não visto<span class="n fronteira"></span>na fronteira<span class="n atual"></span>expandindo<span class="n expandido"></span>expandido<span class="n objetivo"></span>objetivo</div>
+  </div>
+</section>
+
+<!-- 6 · Melhor-primeiro -->
+<section class="slide" data-titulo="Custo uniforme, A* e gulosa" data-passos="auto">
+  <div class="painel esq">
+    <div class="kicker rev">2 · Técnicas</div>
+    <h2 class="rev">Melhor-primeiro <small>fronteira = <code>heapq</code></small></h2>
+    <div class="botoes rev" id="botoes6"></div>
+    <div class="rotulo-fila rev" id="rot6">fronteira (menor prioridade primeiro)</div>
+    <div class="fila rev" id="fila6"></div>
+    <div class="conj rev" id="conj6"></div>
+    <div class="barras-leg rev"><span class="bg"></span>g já percorrido<span class="bh"></span>h estimado<span class="obs"></span>entrada obsoleta</div>
+    <div class="explica" id="txt6"></div>
+  </div>
+</section>
+
+<!-- 7 · Heurísticas -->
+<section class="slide" data-titulo="Heurísticas e k" >
+  <div class="painel esq">
+    <div class="kicker rev">2 · Técnicas</div>
+    <h2 class="rev">Heurística: admissível × superestimada</h2>
+    <p class="rev"><b>h = linha reta</b> é admissível: toda rua mede ≥ a linha reta (<code>validar_instancia</code>) e a desigualdade triangular faz o resto.</p>
+    <div class="deslizante rev">
+      <label>h × <b id="kval">1,00</b></label>
+      <input type="range" id="k7" min="1" max="5" step="0.05" value="1">
+      <div class="faixa" id="faixa7"></div>
+      <div class="faixa-eixo"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div>
+    </div>
+    <div class="leitura rev" id="leitura7"></div>
+    <div class="destaque rev" id="prova7"></div>
+  </div>
+</section>
+
+<!-- 8 · Código ao vivo -->
+<section class="slide" data-titulo="Código ao vivo" data-passos="auto">
+  <div class="painel esq codigo">
+    <div class="kicker rev">3 · Leitura de código</div>
+    <h2 class="rev">Código ao vivo</h2>
+    <div class="abas rev" id="abas8"></div>
+    <div class="arquivo rev" id="arq8"></div>
+    <pre class="fonte rev" id="fonte8"></pre>
+    <div class="explica grande" id="nota8"></div>
+  </div>
+</section>
+
+<!-- 9 · Corrida -->
+<section class="slide topo" data-titulo="Corrida na i3">
+  <div class="cabeca">
+    <div class="kicker rev">4 · Resultados</div>
+    <h2 class="rev">Corrida na i3 <small>400 cruzamentos · o mesmo mapa, quatro estratégias</small></h2>
+  </div>
+  <div class="rodape-dica rev"><kbd>R</kbd> reinicia · <kbd>espaço</kbd> pausa</div>
+</section>
+
+<!-- 10 · Resultados -->
+<section class="slide topo" data-titulo="Resultados" data-passos="1">
+  <div class="cabeca">
+    <div class="kicker rev">4 · Resultados</div>
+    <h2 class="rev" id="tit10">Nós expandidos por estratégia</h2>
+    <p class="rev" id="sub10">altura em escala logarítmica · dados de <code>resultados/tabela.csv</code></p>
+  </div>
+  <div class="leg-estr rev" id="leg10"></div>
+</section>
+
+<!-- 11 · Exigência extra -->
+<section class="slide topo" data-titulo="Exigência extra">
+  <div class="cabeca">
+    <div class="kicker rev">4 · Exigência extra</div>
+    <h2 class="rev">Superestimar a heurística <small>varredura de k</small></h2>
+    <p class="rev">altura = nós expandidos · cor = perda de otimalidade (verde = ótimo, vermelho = pior)</p>
+  </div>
+  <div class="botoes centro rev" id="botoes11"></div>
+  <div class="destaque baixo rev" id="txt11"></div>
+</section>
+
+<!-- 12 · Conclusão -->
+<section class="slide" data-titulo="Conclusão">
+  <div class="painel esq larga">
+    <div class="kicker rev">5 · Fechamento</div>
+    <h2 class="rev">Conclusão</h2>
+    <ul class="rev">
+      <li>A* com linha reta: <b>mesmo custo do custo uniforme</b> em todas as instâncias com solução, com menos expansões.</li>
+      <li>Largura minimiza passos, <b>não distância</b>.</li>
+      <li>Superestimar reduz expansões e <b>perde a garantia</b> de otimalidade; limiar exato k ≈ 2,06 na i1.</li>
+      <li>Com <i>h</i> inconsistente, estados são <b>reabertos</b> (i4: mais expansões que estados alcançáveis).</li>
+    </ul>
+    <h3 class="rev">Declaração de uso de IA</h3>
+    <p class="pequeno rev">Claude (Anthropic) auxiliou no planejamento, na estrutura e implementação inicial do código, nos testes e scripts, e no rascunho do artigo e desta apresentação. Todos os números e animações vêm de execuções reais do código (<code>documentos/exportar_dados_3d.py</code>).</p>
+    <p class="pequeno rev">Limitações: ambiente estático, instâncias sintéticas, tempos sub-milissegundo. Futuro: mapas reais, custo em tempo, busca bidirecional.</p>
+  </div>
+</section>
+
+</main>
+
+<div id="player">
+  <button id="p-ini" title="Primeiro passo">⏮</button>
+  <button id="p-ant" title="Passo anterior (←)">◀</button>
+  <button id="p-play" title="Reproduzir / pausar (espaço)">▶</button>
+  <button id="p-prox" title="Próximo passo (→)">▶︎|</button>
+  <span id="p-info"></span>
+</div>
+
+<nav id="barra">
+  <div id="pontos"></div>
+  <div id="nome-slide"></div>
+  <div id="dica">← → navegar · espaço ▶ · F tela cheia</div>
+</nav>
+
+<script src="vendor/three.min.js"></script>
+<script src="dados.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
